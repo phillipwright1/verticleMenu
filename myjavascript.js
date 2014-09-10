@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#toggle-child').click(function() {
-        $('.child-menu').slideToggle("fast");
+        $('.child-menu').toggle("fast");
     });
 
     function animateIcon(){
