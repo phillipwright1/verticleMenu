@@ -1,0 +1,104 @@
+body {
+    background: url('../img/bg.jpg') no-repeat center fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Navigation Container */
+
+#navigation-container {
+    margin-top: 200px;
+    width: auto;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* Main Navigation */
+
+nav {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+nav li {
+    list-style: none;
+    background: #3c4252;
+    border-top: thin solid rgba(249,249,249,0.3);
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-left: -40px;
+    padding: 15px;
+    color: #c2cff2;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+nav li:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+nav li:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav li:hover {
+    list-style: none;
+    background: #242831;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul ul {
+    background: #1F252C;
+    margin-left: -40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: none;
+}
+
+nav ul ul li {
+    list-style: none;
+    background: none;
+    margin-left: 30px;
+    border: none;
+    font-size: 12px;
+    margin: 0;
+    padding: 5px;
+}
+
+nav ul ul li a {
+    color: #c6d7ef;
+}
+
+nav ul ul li:hover {
+    background: none;
+}
+
+.number-icon {
+    float: right;
+    background: #545A69;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    padding: 4px;
+    color: #a5b1d0;
+    font-size: 11px;
+    border-top: thin solid #aecfe6;
+}
+
+nav a {
+    color: #a5b1d0;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
